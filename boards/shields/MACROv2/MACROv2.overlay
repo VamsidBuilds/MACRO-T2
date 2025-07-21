@@ -38,8 +38,8 @@
     // Add these lines for your encoder
     left_encoder: encoder_left {
         compatible = "alps,ec11";
-        a-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // Example pin - change to your actual pin
-        b-gpios = <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // Example pin - change to your actual pin
+        a-gpios = <&gpio0 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // Example pin - change to your actual pin
+        b-gpios = <&gpio0 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // Example pin - change to your actual pin
         steps = <80>;
         status = "okay";
     };
